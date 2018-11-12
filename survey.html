@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="css/main.css">
     <title>DB TEST</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.css" />
 </head>
 
 <body>
-    <!--Push to server-->
     <div class="all">
     <div class="home"><a href="../../index.html"><i class="fas fa-home"></i></a></div>
     <header>
@@ -21,8 +22,6 @@
         <fieldset>
             <legend>User Information</legend>
             <form >
-                <label for="idInput">User ID</label>
-                <input type="text" name="userId" id="idInput" required>
                 <label for="nameInput">Full Name</label>
                 <input type="text" name="name" id="nameInput" required>
                 <label for="emailInput">Email</label>
@@ -31,22 +30,19 @@
             </form>
         </fieldset>
     </div>
-    <!--submit button-->
-    
-    
-    <!--pull from server-->
+
+<!--
     <div class="out">
        <h3>Data Out</h3>
         <ul class="outlist">
-
         </ul>
-        
     </div>
+-->
     </div>
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!--Firebase-->
-    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
     <!--mainscript-->
     <script src="js/script.js"></script>
     
