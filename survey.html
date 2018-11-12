@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DB TEST</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Push to server-->
+    <div class="all">
+    <div class="home"><a href="../../index.html"><i class="fas fa-home"></i></a></div>
+    <header>
+       <img src="img/lab5.png" class="pic"alt="">
+        <h1>Firebase Testing</h1>
+    </header>
+    <div class="in">
+       <h2>Data In</h2>
+        <fieldset>
+            <legend>User Information</legend>
+            <form >
+                <label for="idInput">User ID</label>
+                <input type="text" name="userId" id="idInput" required>
+                <label for="nameInput">Full Name</label>
+                <input type="text" name="name" id="nameInput" required>
+                <label for="emailInput">Email</label>
+                <input type="text" name="email" id="emailInput" required>
+                <button type="button" class="myButton" id="submitButton">Submit</button>
+            </form>
+        </fieldset>
+    </div>
+    <!--submit button-->
+    
+    
+    <!--pull from server-->
+    <div class="out">
+       <h3>Data Out</h3>
+        <ul class="outlist">
+
+        </ul>
+        
+    </div>
+    </div>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    <!--mainscript-->
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
