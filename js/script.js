@@ -7,3 +7,14 @@
     messagingSenderId: "431697827838"
   };
   firebase.initializeApp(config);
+googleSignIn=()=>{
+  var base_provider = new firebase.auth.GoogleAuthProvider();
+  firebase.auth().signInWithPopup(base_provider).then(function(result){
+    console.log(result)
+    console.log("Success... Google Account Linked");
+  }).catch(function(err){
+    console.log(err)
+    console.log("Unsuccessful... Account not Linked");
+  });
+  
+}
